@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=(select sum(`october1`.`Price`) AS `SUM(price)` from `ontrack`.`october1`)
+md5=d2ccf4b7507621479b70ce4439414659
+updatable=0
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2019-12-01 02:53:01
+create-version=1
+source=(select SUM(price) FROM october1)
+client_cs_name=utf8mb4
+connection_cl_name=utf8mb4_unicode_ci
+view_body_utf8=(select sum(`october1`.`Price`) AS `SUM(price)` from `ontrack`.`october1`)
