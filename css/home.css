@@ -1,0 +1,65 @@
+body{
+  font-family: 'Libre Baskerville', serif;
+}
+.navbar{
+  background-color: white;
+}
+.navbar p{
+  float:left;
+  padding: 10px 16px;
+  margin-left:50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px
+}
+.navbar a{
+  color: black;
+  text-decoration: none;
+  float:right;
+  padding: 10px 16px;
+}
+.navbar a:hover{
+  color:#9A9EB8;
+}
+#expensereport{
+  background-color: #2bbd7e;
+  padding-top:20px;
+  padding-bottom:20px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+
+}
+#billsplitter{
+  background-color: #9fffe0;
+  padding: 50px 50px;
+}
+#taxcalculator{
+  background-color:#00b686;
+  padding: 100px 100px;
+}
+#expensetracker{
+  background-color: #81d4fa;
+  padding: 100px 100px;
+}
+section div a{
+  display:block;
+  padding:60px 60px;
+  margin-left:200px;
+  margin-top:10px;
+  color: white;
+
+}
+section div a:hover{
+  color:#DB4437;
+}
+section div img{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+    width:50%;
+}
+footer{
+  background-color: black;
+  color:white;
+}
